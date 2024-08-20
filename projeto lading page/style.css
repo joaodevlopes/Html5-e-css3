@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonte';
+    src: url("fontes/Oduda-Bold-Demo.otf") format(opentype);
+}
+
+
+
+body{
+    font-family: 'fonte', sans-serif;
+    background-color: rgb(221, 99, 60);
+
+    }
+    img{
+        
+        font-size: 16px;
+            width: 240px;  /* Define a largura em pixels */
+        height: 240px; /* Define a altura em pixels */
+        
+        
+    
+    }
+    .home{
+    font-size: 16px;
+    color: #074470;
+    
+        
+
+
+    }
