@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="imagem/02b170_55c41eee9f844ddb90c2ddd324623198~mv2.webp" alt="" class="renner">
+    <div class="elonmusk">
+        <img src="imagem/elonmus-removebg-preview (1).png" alt="img">
+    </div>
+
+    <div id="conteudo">
+        <h2 class="classe">Classe social: B</h2>
+        <h2 class="sexo">Sexo: Masculino</h2>
+        <h2 class="idade">Idade:26</h2>
+        <h2 class="objetivos">objetivos: Encontrar uma loja de moda,<br> onde venda produtos recomendados das redes sociais,<br> de preferencia cargo e oversize.<h3></h3></h2>
+        <h2 class="online">Comportamento on-line:Costuma consumir <br> muito conteudo sobre moda no TikTok e Youtube.</h2>
+        
+    </div>
+
+    <div id="titulo">
+        <h1>Lojas Renner</h1>
+    </div>
+
+    <footer>
+        Av. Joaquim Porto Villanova, 401 - B. Jardim Carvalho - Porto Alegre/RS CEP: 91410-400 CNPJ: 92.754.738/0001-62Para reclamações, clique aqui:Procon RjProcon ScTodos os direitos reservados
+    </footer>
+
+
+</body>
+</html>
+
+body{
+    background-color: rgb(233, 225, 225);
+}
+
+
+
+.elonmusk{
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+#conteudo{
+    position: absolute;
+    top:177px;
+    right: 130px;
+    color: rgb(59, 50, 50);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgba(235, 42, 42, 0.849);;
+    
+}
+.renner{
+    width: 80px;
+    border-radius: 50%;
+}
+
+#titulo{
+    background-color: rgba(235, 67, 67, 0.76);
+    color: white;
+    position: fixed;
+    right: 580px;
+}
+
+footer{
+    position: relative;
+    top: 500px;
+    background-color: rgba(214, 146, 146, 0.795);
+}
