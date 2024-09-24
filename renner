@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promoção Lojas Renner</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container-cabecalho">
+            <a class="promoçoes" href="http://www.lojasrenner.com.br/lista/promocoes/-/N-1hwylc0Z1l95pyv/p1?gad_source=1&gclid=EAIaIQobChMIn67Cno3ciAMVWzIIBR2WngnWEAAYASAAEgIAz_D_BwE" target="_blank" rel="noopener noreferrer">Promoções</a>
+            <a class="suporte" href="https://atendimento.lojasrenner.com.br/hc/pt-br" target="_blank" rel="noopener noreferrer">Suporte</a>
+        </div>
+    </header>
+
+    <div class="container-imagem">
+        <img src="imagem/images.jpg" alt="Promoção Renner" class="img">
+    </div>
+
+    <main>
+        <section id="sobre">
+            <h2>Benefícios de comprar na Renner:</h2>
+            <p>
+                Coleções exclusivas e categorizadas dentro do próprio site;<br>
+                Promoções e campanhas de desconto, as quais são promovidas com frequência;<br>
+                Parcelamento exclusivo conforme o valor das peças e das compras;<br>
+                Frete grátis nas compras.
+            </p>
+        </section>
+
+        <div id="quemsomos">
+            <h2>Quem <strong>Somos:</strong></h2>
+            <p>
+                Somos um ecossistema de moda e lifestyle conectado a nossos clientes por meio de canais digitais 
+                e mais de 600 lojas no Brasil, Argentina e Uruguai.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Institucional</h4>
+                <ul>
+                    <li><a href="/sobre">Sobre Nós</a></li>
+                    <li><a href="/trabalhe-conosco">Trabalhe Conosco</a></li>
+                    <li><a href="/politica-privacidade">Política de Privacidade</a></li>
+                    <li><a href="/termos-de-uso">Termos de Uso</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Atendimento ao Cliente</h4>
+                <ul>
+                    <li><a href="/faq">FAQs</a></li>
+                    <li><a href="/contato">Contato</a></li>
+                    <li><a href="/trocas-e-devolucoes">Trocas e Devoluções</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Redes Sociais</h4>
+                <ul>
+                    <li><a href="https://www.facebook.com/renner">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/renner">Instagram</a></li>
+                    <li><a href="https://www.twitter.com/renner">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Renner. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
+body {
+    background-color: rgba(196, 196, 196, 0.432);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container-cabecalho {
+    cursor: pointer;
+    text-align: right;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.promoçoes, .suporte {
+    background-color: rgb(187, 24, 24);
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    padding: 6px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.container-imagem .img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+#sobre, #quemsomos {
+    background-color: rgb(187, 24, 24);
+    color: white;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 7px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.footer-section {
+    margin: 10px;
+}
+
+.footer-section h4 {
+    margin: 0 0 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+}
