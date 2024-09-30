@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promoção Lojas Renner</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container-cabecalho">
+            <a class="promoçoes" href="http://www.lojasrenner.com.br/lista/promocoes/-/N-1hwylc0Z1l95pyv/p1?gad_source=1&gclid=EAIaIQobChMIn67Cno3ciAMVWzIIBR2WngnWEAAYASAAEgIAz_D_BwE" target="_blank" rel="noopener noreferrer">Promoções</a>
+            <a class="suporte" href="https://atendimento.lojasrenner.com.br/hc/pt-br" target="_blank" rel="noopener noreferrer">Suporte</a>
+        </div>
+    </header>
+
+    <div class="container-imagem">
+        <img src="imagem/loja-circular_interno_2x.webp" alt="Promoção Renner" class="img">
+    </div>
+
+    <main>
+        <section id="sobre">
+            <h2>Benefícios de comprar na Renner:</h2>
+            <p>
+                Coleções exclusivas e categorizadas dentro do próprio site;<br>
+                Promoções e campanhas de desconto, as quais são promovidas com frequência;<br>
+                Parcelamento exclusivo conforme o valor das peças e das compras;<br>
+                Frete grátis nas compras.
+            </p>
+        </section>
+
+        <div id="quemsomos">
+            <h2>Quem <strong>Somos:</strong></h2>
+            <p>
+                Somos um ecossistema de moda e lifestyle conectado a nossos clientes por meio de canais digitais 
+                e mais de 600 lojas no Brasil, Argentina e Uruguai.
+            </p>
+        </div>
+            <div class="tendencias">
+                <h2><strong>tendencias do momento</strong></h2>
+
+            </div>
+        <div class="container-carrosel">
+            <img src="imagem/P01_240919_HOME_CARROSSELTENDENCIAS_NOSTALGIA_DESK.webp" alt="foto" class="carrosel">
+            
+        </div>
+
+        <section id="watz">
+            <h3 class="tel">Compre pelo Watsapp</h3>
+            <p>Encontre seu look ideal</p>
+            <button class="zap"><a href="https://api.whatsapp.com/send?phone=555139214004&text=Ol%C3%A1%20Renner!%20Tudo%20bem%3F" target="_blank">Compre agora</a></button>
+
+        </section>
+
+        <section id="baixar">
+            <h3 class="instal">Baixe o App da Renner</h3>
+            <p>Encontre tudo em um app so</p>
+            <button class="google"><a href="https://play.google.com/store/apps/details?id=br.com.lojasrenner&hl=pt_BR" target="_blank">Google Play</a></button>
+
+            <button class="appstore"><a href="https://apps.apple.com/br/app/lojas-renner-comprar-roupas/id567763947" target="_blank">App Store</a></button>
+        </section>
+
+        <div id="tiktok">
+            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lorenaramoos1/video/7419779659098754310" data-video-id="7419779659098754310" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@lorenaramoos1" href="https://www.tiktok.com/@lorenaramoos1?refer=embed">@lorenaramoos1</a> Gostaram de algo? 👀 <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou?refer=embed">#foryou</a> <a title="foryoupage" target="_blank" href="https://www.tiktok.com/tag/foryoupage?refer=embed">#foryoupage</a> <a title="fy" target="_blank" href="https://www.tiktok.com/tag/fy?refer=embed">#fy</a> <a title="achadinhos" target="_blank" href="https://www.tiktok.com/tag/achadinhos?refer=embed">#achadinhos</a> <a title="renner" target="_blank" href="https://www.tiktok.com/tag/renner?refer=embed">#renner</a> <a title="achadinhosrenner" target="_blank" href="https://www.tiktok.com/tag/achadinhosrenner?refer=embed">#achadinhosrenner</a> <a title="fastfashion" target="_blank" href="https://www.tiktok.com/tag/fastfashion?refer=embed">#fastfashion</a> <a target="_blank" title="♬ som original - Lorena Ramos" href="https://www.tiktok.com/music/som-original-7419779687496911622?refer=embed">♬ som original - Lorena Ramos</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Institucional</h4>
+                <ul>
+                    <li><a href="https://www.lojasrennersa.com.br/nosso-ecossistema/quem-somos/" target="_blank">Sobre Nós</a></li>
+                    <li><a href="https://lojasrenner.gupy.io/" target="_blank">Trabalhe Conosco</a></li>
+                    <li><a href="https://www.lojasrenner.com.br/privacidade-seguranca?srsltid=AfmBOorLFcyiuBU3tdpmcyk2pDh95HPipFKsyWG5W_ncnUEp8CS-jdvb" target="_blank">Política de Privacidade</a></li>
+                    <li><a href="https://www.lojasrenner.com.br/termos-de-uso?srsltid=AfmBOorCSqatZxCsUClxRxbTGtMJRTYuUcZgyi1hhDr61b4w3n5uE-EZ" target="_blank">Termos de Uso</a></li>
+                </ul>
+            </div>
+            
+
+            <div class="footer-section">
+                <h4>Atendimento ao Cliente</h4>
+                <ul>
+                    <li><a href="https://atendimento.lojasrenner.com.br/hc/pt-br" target="_blank">FAQs</a></li>
+                    <li><a href="https://atendimento.lojasrenner.com.br/hc/pt-br" target="_blank">Contato</a></li>
+                    <li><a href="https://atendimento.lojasrenner.com.br/hc/pt-br/sections/360007002073-Trocas-e-Devolu%C3%A7%C3%B5es" target="_blank">Trocas e Devoluções</a></li>
+                </ul>
+            </div>
+            
+
+            
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Renner. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
+body {
+    background-color: rgba(196, 196, 196, 0.432);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+button a {
+    text-decoration: none !important; /* Remove o sublinhado */
+    color: white !important; /* Define a cor do texto do link */
+}
+
+.container-cabecalho {
+    cursor: pointer;
+    text-align: right;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.promoçoes, .suporte {
+    background-color: rgb(187, 24, 24);
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    padding: 6px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.container-imagem .img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container-carrosel .carrosel{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.tendencias{
+    width: 22%;
+    height: auto;
+    text-align: center;
+    color: white;
+    background-color: rgb(187, 24, 24);
+    border-radius: 7px;
+    
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+#sobre, #quemsomos {
+    background-color: rgb(187, 24, 24);
+    color: white;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 7px;
+}
+
+#watz{
+    background-color: white;
+    width: 210px;
+    height: 130px;
+    margin-right: 8px;
+    margin-top: 8px;
+    
+    text-align: center;
+    padding: 10px;
+}
+
+#watz .tel{
+    color: green;
+}
+#watz .zap{
+    text-decoration: none;
+    background-color: rgba(155, 141, 141, 0.897);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 120px;
+    height: 42px;
+    cursor: pointer;
+    
+}
+
+#baixar{
+    background-color: white;
+    width: 210px;
+    text-align: center;
+    padding: 10px;
+    margin-top: -150px;
+    margin-left: 250px;
+
+}
+
+#baixar .instal{
+    color:red;
+}
+#baixar .google{
+    background-color: rgba(155, 141, 141, 0.897);
+    cursor: pointer;
+    text-decoration: none;
+    width: 120px;
+    height: 42px;
+    border: none;
+    border-radius: 4px;
+}
+
+#baixar .appstore{
+    columns: white;
+    background-color: rgba(155, 141, 141, 0.897);
+    cursor: pointer;
+    text-decoration: none;
+    width: 120px;
+    height: 42px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 4px;
+    text-decoration: none; /* Remove o sublinhado */
+    color: white;
+}
+
+#tiktok .tiktok-embed{
+    width: 100px;
+    margin-top: -210px;
+    text-align: right;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.footer-section {
+    margin: 10px;
+}
+
+.footer-section h4 {
+    margin: 0 0 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+}
