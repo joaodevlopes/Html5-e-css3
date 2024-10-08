@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="carrossel">
+        <div class="carrossel-segundo">
+            <div class="carrossel-item">
+                <img src="pao_de_queijo_615x500px-min-4-e1641818917155.png" alt="Imagem 1" id="imagem1">
+            </div>
+            <div class="carrossel-item">
+                <img src="Restaurant_Review-g303270-d6890523-Reviews-Rei_do_Caldo-Porto_Seguro_State_of_Bahia.html" alt="Imagem 2" id="imagem2">
+            </div>
+            <div class="carrossel-item">
+                <img src="229468.avif" alt="Imagem 3" id="imagem3">
+            </div>
+        </div>
+    </div>
+
+    <div class="bolinhas">
+        <span class="bolinha"></span>
+        <span class="bolinha"></span>
+        <span class="bolinha"></span>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.carrossel {
+    position: relative;
+    max-width: 500px;
+    max-height: 250px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.carrossel-segundo {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Correção aqui */
+}
+
+.carrossel-item {
+    min-width: 100%;
+}
+
+.carrossel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.bolinhas {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bolinha {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(95, 84, 84);
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Correção aqui */
+}
+
+.bolinha:hover {
+    background-color: black;
+}
+
+.bolinha.ativa {
+    background-color: rgb(0, 120, 215); /* Cor da bolinha ativa */
+}
+document.addEventListener('DOMContentLoaded', () => {
+    const bolinhas = document.querySelectorAll('.bolinha');
+    const carrosselsegundo = document.querySelector('.carrossel-segundo');
+    let index = 0;
+
+    // Inicializa a primeira bolinha como ativa
+    bolinhas[index].classList.add('ativa');
+
+    bolinhas.forEach((bolinha, i) => {
+        bolinha.addEventListener('click', () => {
+            index = i;
+            atualizarCarrossel();
+        });
+    });
+
+    function atualizarCarrossel() {
+        carrosselsegundo.style.transform = `translateX(-${index * 100}%)`;
+
+        bolinhas.forEach(b => b.classList.remove('ativa'));
+        bolinhas[index].classList.add('ativa');
+    }
+});
